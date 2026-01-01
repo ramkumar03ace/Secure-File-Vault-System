@@ -142,17 +142,17 @@ The application implements the following core features:
     ```
 2.  Create a `.env` file in the `backend` directory and populate it with the following environment variables:
     ```
-    DATABASE_URL="postgresql://postgres:zocw5Yo44rsghwrN@ounyoiaygoidjgcwpxpv.supabase.co:5432/postgres"
-    SUPABASE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im91bnlvaWF5Z29pZGpnY3dweHB2Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1ODA0MDIxOSwiZXhwIjoyMDczNjE2MjE5fQ.OZF3fsdZni6uq-PLnhShqEjmjHKTjatA3p0aLiq4WOs"
-    SUPABASE_URL="https://ounyoiaygoidjgcwpxpv.supabase.co"
-    SUPABASE_REST_URL="https://ounyoiaygoidjgcwpxpv.supabase.co/rest/v1"
-    SUPABASE_STORAGE_URL="https://ounyoiaygoidjgcwpxpv.storage.supabase.co/storage/v1"
-    SUPABASE_S3_ACCESS_KEY="31d493b5537d1682d0364f913d5c2df7"
+    DATABASE_URL="postgresql://user:password@host:port/dbname"
+    SUPABASE_KEY="your_supabase_anon_key"
+    SUPABASE_URL="https://your_project_ref.supabase.co"
+    SUPABASE_REST_URL="https://your_project_ref.supabase.co/rest/v1"
+    SUPABASE_STORAGE_URL="https://your_project_ref.supabase.co/storage/v1"
+    SUPABASE_S3_ACCESS_KEY="your_s3_access_key"
 
     # Email Service Configuration
-    SMTP_HOST=smtp.gmail.com
-    SMTP_USER="ramkumar.arcot2022@vitstudent.ac.in"
-    SMTP_PASS="odks vmhe nqjo zyil"
+    SMTP_HOST="smtp.gmail.com"
+    SMTP_USER="your_email@example.com"
+    SMTP_PASS="your_app_password"
     ```
     **Note**: For security, replace `SUPABASE_KEY`, `SMTP_USER`, and `SMTP_PASS` with your actual credentials.
 3.  Install Go dependencies:
